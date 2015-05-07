@@ -1,1 +1,5 @@
-{{yield}}
+<svg width="{{width}}" height="{{height}}">
+  {{#each children as |child|}}
+    <circle cx="{{child.x}}" cy="{{child.y}}" r="5" fill="{{child.color}}" />
+  {{/each}}
+</svg>

@@ -1,3 +1,12 @@
-body {
-  background-color: #CEDAF2;
+html, body {
+  margin: 0;
+  // background-color: #CEDAF2;
+  background-color: #FFF;
+  width: 100%;
+  height: 100%;
+
+  > .ember-view, svg {
+    width: 100%;
+    height: 100%;
+  }
 }
